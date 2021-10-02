@@ -219,7 +219,7 @@ a:hover {
 
 .btn-solid-sm:hover {
 	background-color: transparent;
-	color: #0092ff; /* needs to stay here because of the color property of a tag */
+	color: #ef473d; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -238,7 +238,7 @@ a:hover {
 }
 
 .btn-outline-reg:hover {
-	background-color: #ef473d;
+	background-color: #ef3d9173d;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -404,10 +404,12 @@ a:hover {
 	transition: all 0.2s ease;
 }
 
-.navbar .nav-item.dropdown.show .nav-link,
-.navbar .nav-item .nav-link:hover,
+
+.navbar .nav-item .nav-link:hover{
+color: #ce0000;
+}
 .navbar .nav-item .nav-link.active {
-	color: #ce0000;
+	color: #5e6576
 }
 
 /* Dropdown Menu */
@@ -467,6 +469,16 @@ a:hover {
 
 .bg2{
 	background: url('../images/BG/2.png');
+	background-size: cover;
+}
+
+.bg3{
+	background: url('../images/BG/5.png');
+	background-size: cover;
+
+}
+.bg4{
+	background: url('../images/BG/6.png');
 	background-size: cover;
 }
 /******************/
@@ -619,19 +631,19 @@ a:hover {
 .accordion-1 {
 	padding-top: 9.25rem;
 	padding-bottom: 9.25rem;
-	background: url('../images/features-background.jpg') center center no-repeat;
+	background: url('../images/BG/3.png') center center no-repeat;
 	background-size: cover;
 }
 
 .accordion-1 .h2-heading {
 	margin-bottom: 1rem;
-	color: #ffffff;
+	color: #5e6576;
 	text-align: center;
 }
 
 .accordion-1 .p-heading {
 	margin-bottom: 4rem;
-	color: #ffffff;
+	color: #5e6576;
 	text-align: center;
 }
 
