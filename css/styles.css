@@ -93,7 +93,13 @@ h6 {
 
 
 
+.aboutus{
+	height: 996px;
+}
 
+.textlarge{
+	font-size: 50px;
+}
 .p-large {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
@@ -344,7 +350,7 @@ a:hover {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #fcfafb;
+	background-color: #252122;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -409,7 +415,7 @@ a:hover {
 color: #ce0000;
 }
 .navbar .nav-item .nav-link.active {
-	color: #ce0000
+	color: #ffffff
 }
 
 /* Dropdown Menu */
