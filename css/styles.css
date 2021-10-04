@@ -238,7 +238,7 @@ a:hover {
 }
 
 .btn-outline-reg:hover {
-	background-color: #ef3d9173d;
+	background-color: #d9173d;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -399,7 +399,7 @@ a:hover {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #5e6576;
+	color: #ffffff;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -409,7 +409,7 @@ a:hover {
 color: #ce0000;
 }
 .navbar .nav-item .nav-link.active {
-	color: #5e6576
+	color: #ce0000
 }
 
 /* Dropdown Menu */
@@ -1096,7 +1096,7 @@ color: #ce0000;
 	/* Navigation */
 	.navbar {
 		padding-top: 1.75rem;
-		background-color: #fcfafb;
+		background-color: #252122;
 		box-shadow: none;
 		transition: all 0.2s;
 	}
@@ -1104,7 +1104,7 @@ color: #ce0000;
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: #fcfafb;
+		background-color: #252122;
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
 	}
 
