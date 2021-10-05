@@ -491,12 +491,13 @@ color: #ce0000;
 /*     Header     */
 /******************/
 .header {
-	padding-top: 8rem;
+	padding-top: 4rem;
 	padding-bottom: 4em;
 	background: url('../images/1.png') 
 	center center no-repeat;
 	background-size: cover;
 	text-align: center;
+	height: 750px;
 	
 }
 
