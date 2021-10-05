@@ -107,6 +107,9 @@ h6 {
 .widthall{
 	width: 100%;
 }
+.paratext{
+	font-size: 1px;
+}
 
 .textlarge{
 	font-size: 50px;
@@ -363,6 +366,7 @@ a:hover {
 .navbar {
 	background-color: #252122;
 	font-weight: 600;
+	
 	font-size: 0.875rem;
 	line-height: 0.875rem;
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.05);
@@ -1059,9 +1063,18 @@ color: #ce0000;
 /*************************/
 /*     Media Queries     */
 /*************************/	
+@media (min-width: 312px){
+	.navbar{
+		max-width: 93%;
+	}
+}
+
 /* Min-width 768px */
 @media (min-width: 768px) {
 
+	.navbar{
+		max-width: 100%;
+	}
 	/* Header */
 	.header {
 		padding-top: 9rem;
@@ -1097,6 +1110,9 @@ color: #ce0000;
 /* Min-width 992px */
 @media (min-width: 992px) {
 	
+	.navbar{
+		max-width: 100%;
+	}
 	/* General Styles */
 	.h2-heading {
 		width: 35.25rem;
@@ -1162,7 +1178,7 @@ color: #ce0000;
 	}
 
 	.navbar .dropdown-divider {
-		width: 90%;
+		width: 100%;
 	}
 
 	.navbar .nav-item .btn-solid-sm {
@@ -1308,6 +1324,9 @@ color: #ce0000;
 /* Min-width 1200px */
 @media (min-width: 1200px) {
 	
+	.navbar{
+		max-width: 100%;
+	}
 	/* General Styles */
 	.container {
 		max-width: 1140px;
