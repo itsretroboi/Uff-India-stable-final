@@ -97,6 +97,17 @@ h6 {
 	height: 996px;
 }
 
+.heightpage{
+	height: 100%;
+}
+.heightpage2{
+	height: 3px;
+}
+
+.widthall{
+	width: 100%;
+}
+
 .textlarge{
 	font-size: 50px;
 }
@@ -491,7 +502,7 @@ color: #ce0000;
 /*     Header     */
 /******************/
 .header {
-	padding-top: 4rem;
+	padding-top: 8rem;
 	padding-bottom: 4em;
 	background: url('../images/1.png') 
 	center center no-repeat;
@@ -518,8 +529,9 @@ color: #ce0000;
 /*     Services     */
 /********************/
 .cards-1 {
-	padding-top: 5rem;
-	padding-bottom: 2.25em;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	
 }
 
 .cards-1 h2 {
@@ -527,7 +539,7 @@ color: #ce0000;
 }
 
 .cards-1 .card {
-	margin-bottom: 5rem;
+	margin-bottom: 5px;
 	border: none;
 	background-color: transparent;
 }
