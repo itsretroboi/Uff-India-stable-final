@@ -504,6 +504,9 @@ color: #ce0000;
 	background: url('../images/BG/6.png');
 	background-size: cover;
 }
+.bg5{
+	background: url('../images/BG/7.png');
+}
 /******************/
 /*     Header     */
 /******************/
@@ -611,7 +614,7 @@ color: #ce0000;
 .basic-1 {
 	padding-top: 2.25rem;
 	padding-bottom: 4.75rem;
-	background: linear-gradient(rgb(252, 250, 251), rgb(255, 255, 255));
+	background: url('../images/BG/3.png')
 }
 
 .basic-1 .image-container {
