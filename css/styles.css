@@ -124,6 +124,9 @@ h6 {
 	color: #9114ff;
 	text-align: center;
 }
+.marginbut{
+	margin-right: 50px;
+}
 
 .p-small {
 	font-size: 0.875rem;
