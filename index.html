@@ -80,14 +80,20 @@
 
     <!-- Header -->
     <header id="header" class="header">
-        <div class="container">
+        <div class="container heightpage2">
             <div class="row">
                 <div class="">
                     <div class="text-container">
                         
                         <h2 class="h2-large">The world is waiting to</h2>
                         <h1 class="h1-large textcolor">QUIT ADJUSTING WITH FOOD</h1>
-                        <h3>HAVE YOU EVER FACED PROBLEM FINDING FOOD DURING TRAVEL?</h3>
+                        <div class="anim-text-banner">
+              
+                            <h3 class="anim-text"
+                              >Have you ever <span class="typing"></span
+                            ></h3>
+                          </div>
+                                                  <!-- <h3>HAVE YOU EVER FACED PROBLEM FINDING FOOD DURING TRAVEL?</h3> -->
                         <br>
                         <br>
                         <br>
@@ -168,7 +174,7 @@
 
 
     <!-- Details 1 -->
-    <div id="details" class="basic-1 heightpage">
+    <div id="details" class="basic-1 bg3 heightpage">
         <div class="container"><br><br><br><br><br>
             <div class="row">
                 <div class="col-lg-6 col-xl-7">
@@ -183,7 +189,7 @@
                         <a class="btn-solid-reg marginbut" href="popup.html">NOTIFY ME AT LAUNCH></a>
                         <img src="images/indiaflag.png" width="95px">
 
-                    </div><br><br><br><br><br><br><br><br> <!-- end of text-container -->
+                    </div><br><br><br><br> <!-- end of text-container -->
                 </div> <!-- end of col -->
                
             </div> <!-- end of row -->
@@ -197,7 +203,7 @@
 
 
     <!-- Services -->
-    <div id="services" class="cards-1 bg2 heightpage">
+    <div id="services" class="cards-1 bg4 heightpage">
 
         <div class="container">
             <div class="row">
@@ -300,7 +306,7 @@
 
 
     <!-- become a partner section -->
-    <div class="section bg3">
+    <div class="section bg5">
         <section class="become_partner" id="partner">
             <div>
                 <img class="chef-img" src="images/Chef graphic.svg.svg" alt="image" />
@@ -322,7 +328,7 @@
 
 
     <!-- join our team section -->
-    <div class="section bg4">
+    <div class="section bg6">
         <section class="join_team " id="career">
             <div>
                 <h1>Join Our Team</h1>
@@ -405,11 +411,58 @@
         <img src="images/up-arrow.png" alt="alternative">
     </button>
     <!-- end of back to top button -->
-
+    <script>
+        $(document).ready(function () {
+          $("#fullpage1").fullpage();
+        });
+      </script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.extensions.min.js"
+        integrity="sha512-v0jjVvFpZqb1BcXhgLbaBDRKwZ09IpWFZL5NHTNbW9MlSjhZihkxEz2uNeMGd6HuK1qnSEL6JdyTr24ZHlgKow=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <!-- typed.js script -->
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+        integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"
+        integrity="sha512-GgeYbSbIufsTDQLCp/zhWN2AJRddt3w9p942+lOS5emAtvRBGo65t2zq8Svq+CIZIo1V1DgA6kHzQTBCH0HiXQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
     <!-- Scripts -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script>
+        var typed = new Typed(".typing", {
+          strings: [
+            "faced problem finding food during travel?",
+            "wasted precious travel time finding food?",
+            "adjusted with limited food options?",
+            "faced unavailability of a dish nearby?",
+          ],
+          typeSpeed: 40,
+          backSpeed: 20,
+          loop: true,
+        });
+  
+        $(".menu-btn").click(function () {
+          $("nav .menu").toggleClass("active");
+          $(".menu-btn i").toggleClass("active");
+        });
+      </script>
 </body>
 
 </html>

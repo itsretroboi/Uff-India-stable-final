@@ -103,7 +103,7 @@ h6 {
 	height: 100%;
 }
 .heightpage2{
-	height: 3px;
+	height: 100vh;
 }
 
 .widthall{
@@ -509,15 +509,18 @@ color: #ce0000;
 }
 
 .bg3{
-	background: url('../images/BG/5.png');
+	background: url('../images/BG/3.png');
 	background-size: cover;
 
 }
 .bg4{
-	background: url('../images/BG/6.png');
+	background: url('../images/BG/4.png');
 	background-size: cover;
 }
 .bg5{
+	background: url('../images/BG/6.png');
+}
+.bg6{
 	background: url('../images/BG/7.png');
 }
 /******************/
@@ -526,7 +529,7 @@ color: #ce0000;
 .header {
 	padding-top: 8rem;
 	padding-bottom: 4em;
-	background: url('../images/1.png') 
+	background: url('../images/BG/1.png') 
 	center center no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -672,7 +675,7 @@ color: #ce0000;
 .accordion-1 {
 	padding-top: 9.25rem;
 	padding-bottom: 9.25rem;
-	background: url('../images/BG/3.png') center center no-repeat;
+	background: url('../images/BG/5.png') center center no-repeat;
 	background-size: cover;
 }
 
